@@ -27,7 +27,11 @@ class MVButton: UIButton {
 //            print("Ngày hôm nay thật là đẹp trời")
 //            print("đang code thêm trên nhánh dev")
 //            print("tao đang code ở nhánh master trên local")
+<<<<<<< HEAD
 //            print ( " tao lai code tren dev 0")
+=======
+//            print("codetren dev 1")
+>>>>>>> eb0f2521692e0e8d2e7fb4d973e3ec58ba146978
         }
         }
     }
