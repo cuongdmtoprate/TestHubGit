@@ -1,0 +1,475 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		099A0E0F233B28CC0083F515 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 099A0E11233B28CC0083F515 /* Localizable.strings */; };
+		099A0E16233B67BB0083F515 /* HomeLoginWithOTPViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 099A0E14233B67BB0083F515 /* HomeLoginWithOTPViewController.swift */; };
+		099A0E17233B67BB0083F515 /* HomeLoginWithOTPViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 099A0E15233B67BB0083F515 /* HomeLoginWithOTPViewController.xib */; };
+		099A0E1B233B69BB0083F515 /* HomePrePayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 099A0E19233B69BB0083F515 /* HomePrePayViewController.swift */; };
+		09CA067A2338BDB7000A39F0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09CA06792338BDB7000A39F0 /* AppDelegate.swift */; };
+		09CA067C2338BDB7000A39F0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09CA067B2338BDB7000A39F0 /* ViewController.swift */; };
+		09CA067F2338BDB7000A39F0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 09CA067D2338BDB7000A39F0 /* Main.storyboard */; };
+		09CA06812338BDBA000A39F0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 09CA06802338BDBA000A39F0 /* Assets.xcassets */; };
+		09CA06842338BDBA000A39F0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 09CA06822338BDBA000A39F0 /* LaunchScreen.storyboard */; };
+		09CA068D2338BDFB000A39F0 /* Custom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09CA068C2338BDFB000A39F0 /* Custom.swift */; };
+		09CA068F2338D31F000A39F0 /* MvNavigationView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 09CA068E2338D31F000A39F0 /* MvNavigationView.xib */; };
+		09F144472339F74600CEC064 /* HomeLoginWithPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09F144452339F74600CEC064 /* HomeLoginWithPasswordViewController.swift */; };
+		09F144482339F74600CEC064 /* HomeLoginWithPasswordViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 09F144462339F74600CEC064 /* HomeLoginWithPasswordViewController.xib */; };
+		09F1444A233A04AA00CEC064 /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09F14449233A04AA00CEC064 /* ThirdViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		099A0E0C233B288B0083F515 /* vi */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = vi; path = vi.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		099A0E10233B28CC0083F515 /* vi */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = vi; path = vi.lproj/Localizable.strings; sourceTree = "<group>"; };
+		099A0E12233B28D90083F515 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		099A0E14233B67BB0083F515 /* HomeLoginWithOTPViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeLoginWithOTPViewController.swift; sourceTree = "<group>"; };
+		099A0E15233B67BB0083F515 /* HomeLoginWithOTPViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeLoginWithOTPViewController.xib; sourceTree = "<group>"; };
+		099A0E19233B69BB0083F515 /* HomePrePayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePrePayViewController.swift; sourceTree = "<group>"; };
+		099A0E1E233B7ABD0083F515 /* SF-Pro-Text-Black.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "SF-Pro-Text-Black.otf"; path = "../../../../../../../../Library/Fonts/SF-Pro-Text-Black.otf"; sourceTree = "<group>"; };
+		099A0E1F233B7ABD0083F515 /* SF-Pro-Text-HeavyItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "SF-Pro-Text-HeavyItalic.otf"; path = "../../../../../../../../Library/Fonts/SF-Pro-Text-HeavyItalic.otf"; sourceTree = "<group>"; };
+		099A0E20233B7ABD0083F515 /* SF-Pro-Text-MediumItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "SF-Pro-Text-MediumItalic.otf"; path = "../../../../../../../../Library/Fonts/SF-Pro-Text-MediumItalic.otf"; sourceTree = "<group>"; };
+		099A0E21233B7ABD0083F515 /* SF-Pro-Text-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "SF-Pro-Text-Bold.otf"; path = "../../../../../../../../Library/Fonts/SF-Pro-Text-Bold.otf"; sourceTree = "<group>"; };
+		099A0E22233B7ABD0083F515 /* SF-Pro-Text-BlackItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "SF-Pro-Text-BlackItalic.otf"; path = "../../../../../../../../Library/Fonts/SF-Pro-Text-BlackItalic.otf"; sourceTree = "<group>"; };
+		099A0E23233B7ABD0083F515 /* SF-Pro-Text-UltralightItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "SF-Pro-Text-UltralightItalic.otf"; path = "../../../../../../../../Library/Fonts/SF-Pro-Text-UltralightItalic.otf"; sourceTree = "<group>"; };
+		099A0E24233B7ABE0083F515 /* SF-Pro-Text-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "SF-Pro-Text-Regular.otf"; path = "../../../../../../../../Library/Fonts/SF-Pro-Text-Regular.otf"; sourceTree = "<group>"; };
+		099A0E25233B7ABE0083F515 /* SF-Pro-Text-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "SF-Pro-Text-Medium.otf"; path = "../../../../../../../../Library/Fonts/SF-Pro-Text-Medium.otf"; sourceTree = "<group>"; };
+		099A0E26233B7ABE0083F515 /* SF-Pro-Text-SemiboldItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "SF-Pro-Text-SemiboldItalic.otf"; path = "../../../../../../../../Library/Fonts/SF-Pro-Text-SemiboldItalic.otf"; sourceTree = "<group>"; };
+		099A0E27233B7ABE0083F515 /* SF-Pro-Text-Semibold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "SF-Pro-Text-Semibold.otf"; path = "../../../../../../../../Library/Fonts/SF-Pro-Text-Semibold.otf"; sourceTree = "<group>"; };
+		099A0E28233B7ABE0083F515 /* SF-Pro-Text-RegularItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "SF-Pro-Text-RegularItalic.otf"; path = "../../../../../../../../Library/Fonts/SF-Pro-Text-RegularItalic.otf"; sourceTree = "<group>"; };
+		099A0E29233B7ABE0083F515 /* SF-Pro-Text-Thin.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "SF-Pro-Text-Thin.otf"; path = "../../../../../../../../Library/Fonts/SF-Pro-Text-Thin.otf"; sourceTree = "<group>"; };
+		099A0E2A233B7ABE0083F515 /* SF-Pro-Text-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "SF-Pro-Text-Light.otf"; path = "../../../../../../../../Library/Fonts/SF-Pro-Text-Light.otf"; sourceTree = "<group>"; };
+		099A0E2B233B7ABE0083F515 /* SF-Pro-Text-BoldItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "SF-Pro-Text-BoldItalic.otf"; path = "../../../../../../../../Library/Fonts/SF-Pro-Text-BoldItalic.otf"; sourceTree = "<group>"; };
+		099A0E2C233B7ABE0083F515 /* SF-Pro-Text-Heavy.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "SF-Pro-Text-Heavy.otf"; path = "../../../../../../../../Library/Fonts/SF-Pro-Text-Heavy.otf"; sourceTree = "<group>"; };
+		099A0E2D233B7ABE0083F515 /* SF-Pro-Text-Ultralight.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "SF-Pro-Text-Ultralight.otf"; path = "../../../../../../../../Library/Fonts/SF-Pro-Text-Ultralight.otf"; sourceTree = "<group>"; };
+		099A0E2E233B7ABE0083F515 /* SF-Pro-Text-ThinItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "SF-Pro-Text-ThinItalic.otf"; path = "../../../../../../../../Library/Fonts/SF-Pro-Text-ThinItalic.otf"; sourceTree = "<group>"; };
+		099A0E2F233B7ABE0083F515 /* SF-Pro-Text-LightItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "SF-Pro-Text-LightItalic.otf"; path = "../../../../../../../../Library/Fonts/SF-Pro-Text-LightItalic.otf"; sourceTree = "<group>"; };
+		09CA06762338BDB7000A39F0 /* CustomAnyThink.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomAnyThink.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		09CA06792338BDB7000A39F0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		09CA067B2338BDB7000A39F0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		09CA067E2338BDB7000A39F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		09CA06802338BDBA000A39F0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		09CA06832338BDBA000A39F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		09CA06852338BDBA000A39F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		09CA068C2338BDFB000A39F0 /* Custom.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Custom.swift; sourceTree = "<group>"; };
+		09CA068E2338D31F000A39F0 /* MvNavigationView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MvNavigationView.xib; sourceTree = "<group>"; };
+		09F144452339F74600CEC064 /* HomeLoginWithPasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeLoginWithPasswordViewController.swift; sourceTree = "<group>"; };
+		09F144462339F74600CEC064 /* HomeLoginWithPasswordViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeLoginWithPasswordViewController.xib; sourceTree = "<group>"; };
+		09F14449233A04AA00CEC064 /* ThirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		09CA06732338BDB7000A39F0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		09123CED2339013A00998FC5 /* HomeNotLogin */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = HomeNotLogin;
+			sourceTree = "<group>";
+		};
+		099A0E13233B66140083F515 /* HomeLoginWithOTP */ = {
+			isa = PBXGroup;
+			children = (
+				099A0E14233B67BB0083F515 /* HomeLoginWithOTPViewController.swift */,
+				099A0E15233B67BB0083F515 /* HomeLoginWithOTPViewController.xib */,
+			);
+			path = HomeLoginWithOTP;
+			sourceTree = "<group>";
+		};
+		099A0E18233B69A80083F515 /* HomePrePay */ = {
+			isa = PBXGroup;
+			children = (
+				099A0E19233B69BB0083F515 /* HomePrePayViewController.swift */,
+			);
+			path = HomePrePay;
+			sourceTree = "<group>";
+		};
+		099A0E1D233B7A7E0083F515 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				099A0E1E233B7ABD0083F515 /* SF-Pro-Text-Black.otf */,
+				099A0E22233B7ABD0083F515 /* SF-Pro-Text-BlackItalic.otf */,
+				099A0E21233B7ABD0083F515 /* SF-Pro-Text-Bold.otf */,
+				099A0E2B233B7ABE0083F515 /* SF-Pro-Text-BoldItalic.otf */,
+				099A0E2C233B7ABE0083F515 /* SF-Pro-Text-Heavy.otf */,
+				099A0E1F233B7ABD0083F515 /* SF-Pro-Text-HeavyItalic.otf */,
+				099A0E2A233B7ABE0083F515 /* SF-Pro-Text-Light.otf */,
+				099A0E2F233B7ABE0083F515 /* SF-Pro-Text-LightItalic.otf */,
+				099A0E25233B7ABE0083F515 /* SF-Pro-Text-Medium.otf */,
+				099A0E20233B7ABD0083F515 /* SF-Pro-Text-MediumItalic.otf */,
+				099A0E24233B7ABE0083F515 /* SF-Pro-Text-Regular.otf */,
+				099A0E28233B7ABE0083F515 /* SF-Pro-Text-RegularItalic.otf */,
+				099A0E27233B7ABE0083F515 /* SF-Pro-Text-Semibold.otf */,
+				099A0E26233B7ABE0083F515 /* SF-Pro-Text-SemiboldItalic.otf */,
+				099A0E29233B7ABE0083F515 /* SF-Pro-Text-Thin.otf */,
+				099A0E2E233B7ABE0083F515 /* SF-Pro-Text-ThinItalic.otf */,
+				099A0E2D233B7ABE0083F515 /* SF-Pro-Text-Ultralight.otf */,
+				099A0E23233B7ABD0083F515 /* SF-Pro-Text-UltralightItalic.otf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		09CA066D2338BDB7000A39F0 = {
+			isa = PBXGroup;
+			children = (
+				09CA06782338BDB7000A39F0 /* CustomAnyThink */,
+				09CA06772338BDB7000A39F0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		09CA06772338BDB7000A39F0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				09CA06762338BDB7000A39F0 /* CustomAnyThink.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		09CA06782338BDB7000A39F0 /* CustomAnyThink */ = {
+			isa = PBXGroup;
+			children = (
+				099A0E18233B69A80083F515 /* HomePrePay */,
+				099A0E13233B66140083F515 /* HomeLoginWithOTP */,
+				09F144442339F6F400CEC064 /* HomeLoginWithPassword */,
+				09123CED2339013A00998FC5 /* HomeNotLogin */,
+				09CA068B2338BDE6000A39F0 /* Custom */,
+				09CA06792338BDB7000A39F0 /* AppDelegate.swift */,
+				09CA067B2338BDB7000A39F0 /* ViewController.swift */,
+				09CA067D2338BDB7000A39F0 /* Main.storyboard */,
+				09CA06802338BDBA000A39F0 /* Assets.xcassets */,
+				099A0E11233B28CC0083F515 /* Localizable.strings */,
+				099A0E1D233B7A7E0083F515 /* Fonts */,
+				09CA06822338BDBA000A39F0 /* LaunchScreen.storyboard */,
+				09CA06852338BDBA000A39F0 /* Info.plist */,
+			);
+			path = CustomAnyThink;
+			sourceTree = "<group>";
+		};
+		09CA068B2338BDE6000A39F0 /* Custom */ = {
+			isa = PBXGroup;
+			children = (
+				09CA068C2338BDFB000A39F0 /* Custom.swift */,
+				09CA068E2338D31F000A39F0 /* MvNavigationView.xib */,
+				09F14449233A04AA00CEC064 /* ThirdViewController.swift */,
+			);
+			path = Custom;
+			sourceTree = "<group>";
+		};
+		09F144442339F6F400CEC064 /* HomeLoginWithPassword */ = {
+			isa = PBXGroup;
+			children = (
+				09F144452339F74600CEC064 /* HomeLoginWithPasswordViewController.swift */,
+				09F144462339F74600CEC064 /* HomeLoginWithPasswordViewController.xib */,
+			);
+			path = HomeLoginWithPassword;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		09CA06752338BDB7000A39F0 /* CustomAnyThink */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 09CA06882338BDBA000A39F0 /* Build configuration list for PBXNativeTarget "CustomAnyThink" */;
+			buildPhases = (
+				09CA06722338BDB7000A39F0 /* Sources */,
+				09CA06732338BDB7000A39F0 /* Frameworks */,
+				09CA06742338BDB7000A39F0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CustomAnyThink;
+			productName = CustomAnyThink;
+			productReference = 09CA06762338BDB7000A39F0 /* CustomAnyThink.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		09CA066E2338BDB7000A39F0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = encodejsc;
+				TargetAttributes = {
+					09CA06752338BDB7000A39F0 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = 09CA06712338BDB7000A39F0 /* Build configuration list for PBXProject "CustomAnyThink" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 09CA066D2338BDB7000A39F0;
+			productRefGroup = 09CA06772338BDB7000A39F0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				09CA06752338BDB7000A39F0 /* CustomAnyThink */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		09CA06742338BDB7000A39F0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09CA06842338BDBA000A39F0 /* LaunchScreen.storyboard in Resources */,
+				099A0E0F233B28CC0083F515 /* Localizable.strings in Resources */,
+				09CA06812338BDBA000A39F0 /* Assets.xcassets in Resources */,
+				09CA067F2338BDB7000A39F0 /* Main.storyboard in Resources */,
+				09F144482339F74600CEC064 /* HomeLoginWithPasswordViewController.xib in Resources */,
+				09CA068F2338D31F000A39F0 /* MvNavigationView.xib in Resources */,
+				099A0E17233B67BB0083F515 /* HomeLoginWithOTPViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		09CA06722338BDB7000A39F0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09F144472339F74600CEC064 /* HomeLoginWithPasswordViewController.swift in Sources */,
+				09CA067C2338BDB7000A39F0 /* ViewController.swift in Sources */,
+				09F1444A233A04AA00CEC064 /* ThirdViewController.swift in Sources */,
+				099A0E16233B67BB0083F515 /* HomeLoginWithOTPViewController.swift in Sources */,
+				09CA067A2338BDB7000A39F0 /* AppDelegate.swift in Sources */,
+				099A0E1B233B69BB0083F515 /* HomePrePayViewController.swift in Sources */,
+				09CA068D2338BDFB000A39F0 /* Custom.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		099A0E11233B28CC0083F515 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				099A0E10233B28CC0083F515 /* vi */,
+				099A0E12233B28D90083F515 /* en */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		09CA067D2338BDB7000A39F0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				09CA067E2338BDB7000A39F0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		09CA06822338BDBA000A39F0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				09CA06832338BDBA000A39F0 /* Base */,
+				099A0E0C233B288B0083F515 /* vi */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		09CA06862338BDBA000A39F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		09CA06872338BDBA000A39F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		09CA06892338BDBA000A39F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = J52MQDAGS5;
+				INFOPLIST_FILE = CustomAnyThink/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.encodejsc.CustomAnyThink;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		09CA068A2338BDBA000A39F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = J52MQDAGS5;
+				INFOPLIST_FILE = CustomAnyThink/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.encodejsc.CustomAnyThink;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		09CA06712338BDB7000A39F0 /* Build configuration list for PBXProject "CustomAnyThink" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				09CA06862338BDBA000A39F0 /* Debug */,
+				09CA06872338BDBA000A39F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		09CA06882338BDBA000A39F0 /* Build configuration list for PBXNativeTarget "CustomAnyThink" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				09CA06892338BDBA000A39F0 /* Debug */,
+				09CA068A2338BDBA000A39F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 09CA066E2338BDB7000A39F0 /* Project object */;
+}

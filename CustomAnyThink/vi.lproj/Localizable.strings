@@ -1,0 +1,20 @@
+/* 
+  Localizable.strings
+  CustomAnyThink
+
+  Created by ManhCuong on 9/25/19.
+  Copyright © 2019 encodejsc. All rights reserved.
+*/
+
+
+// 1.1 1.1.Đăng nhập (bằng mật khẩu)
+"bltLogin" = "Đăng nhập";
+"tag1_segment_mobile_subscription" = "Thuê bao di động";
+"tag2_segment_fixed_account" = "Tài khoản cố định";
+"lbl_phoneNumber" = "Số di động";
+"tf_Enter_mobile_number" = "Nhập số di động";
+"lbl_password/otp_code" = "Mật khẩu / Mã OTP";
+"tf_Enter_password/otp_code" = "Nhập mật khẩu / mã OTP";
+"blt_Forgot_password" = "Quên mật khẩu";
+"lbl_no_account" = "Chưa có tài khoản?";
+"blt_Register_now" = "Đăng ký ngay!";

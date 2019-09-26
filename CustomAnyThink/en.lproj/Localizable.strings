@@ -1,0 +1,19 @@
+/* 
+  Localizable.strings
+  CustomAnyThink
+
+  Created by ManhCuong on 9/25/19.
+  Copyright © 2019 encodejsc. All rights reserved.
+*/
+
+// 1.1 1.1.Đăng nhập (bằng mật khẩu)
+"bltLogin" = "Login";
+"tag1_segment_mobile_subscription" = "Mobile subscription";
+"tag2_segment_fixed_account" = "Fixed account";
+"lbl_phoneNumber" = "Phone Number";
+"tf_Enter_mobile_number" = "Enter mobile number";
+"lbl_password/otp_code" = "Password / OTP code";
+"tf_Enter_password/otp_code" = "Enter password / OTP code";
+"blt_Forgot_password" = "Forgot password";
+"lbl_no_account" = "No Account?";
+"blt_Register_now" = "Register now!";
