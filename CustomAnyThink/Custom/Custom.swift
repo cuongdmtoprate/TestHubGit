@@ -64,6 +64,7 @@ class MVView: UIView {
     @IBInspectable var borderWidth : CGFloat = 0 {
         didSet {
             self.layer.borderWidth = borderWidth
+//            print("them1cmt")
         }
     }
 }
