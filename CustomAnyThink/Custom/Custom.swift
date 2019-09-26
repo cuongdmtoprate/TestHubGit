@@ -25,6 +25,7 @@ class MVButton: UIButton {
         didSet {
             self.layer.borderWidth = borderWidth
             print("Ngày hôm nay thật là đẹp trời")
+            print("đang code thêm trên nhánh dev")
         }
         }
     }
