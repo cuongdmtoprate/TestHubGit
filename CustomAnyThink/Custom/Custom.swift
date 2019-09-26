@@ -24,14 +24,7 @@ class MVButton: UIButton {
     @IBInspectable var borderWidth: CGFloat = 0 {
         didSet {
             self.layer.borderWidth = borderWidth
-//            print("Ngày hôm nay thật là đẹp trời")
-//            print("đang code thêm trên nhánh dev")
-//            print("tao đang code ở nhánh master trên local")
-<<<<<<< HEAD
-//            print ( " tao lai code tren dev 0")
-=======
-//            print("codetren dev 1")
->>>>>>> eb0f2521692e0e8d2e7fb4d973e3ec58ba146978
+            self.layer.borderColor = #colorLiteral(red: 0, green: 0.7347181439, blue: 0.7580738664, alpha: 1)
         }
         }
     }
@@ -69,7 +62,7 @@ class MVView: UIView {
     @IBInspectable var borderWidth : CGFloat = 0 {
         didSet {
             self.layer.borderWidth = borderWidth
-//            print("them1cmt")
+            self.layer.borderColor = #colorLiteral(red: 0, green: 0.7347181439, blue: 0.7580738664, alpha: 1)
         }
     }
 }
@@ -270,4 +263,25 @@ extension UIViewController {
     @objc func dismissKeyboard() {
         view.endEditing(true)
     }
+}
+
+//  MV Slider
+class MVSlider: UISlider {
+    @IBInspectable var thumbTintl: UIColor = .clear {
+        didSet {
+            self.thumbTintColor = thumbTintl
+        }
+    }
+//    @IBInspectable var cornerRadius: CGFloat = 0 {
+//        didSet{
+//        self.layer.cornerRadius = cornerRadius
+    @IBInspectable var trackHight: CGFloat = 5
+    override open func trackRect(forBounds bounds: CGRect) -> CGRect {
+        return CGRect(origin: bounds.origin, size: CGSize(width: bounds.width, height: trackHight))
+    }
+}
+
+// page control
+class MVPageControl: UIPageControl {
+    <#code#>
 }
