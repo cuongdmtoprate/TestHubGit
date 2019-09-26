@@ -24,6 +24,7 @@ class MVButton: UIButton {
     @IBInspectable var borderWidth: CGFloat = 0 {
         didSet {
             self.layer.borderWidth = borderWidth
+            print("tao đang code ở nhánh master trên local")
         }
         }
     }
