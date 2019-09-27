@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0969D4BA233DB0CE0006EC61 /* FlashsaleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0969D4B8233DB0CE0006EC61 /* FlashsaleViewController.swift */; };
+		0969D4BB233DB0CE0006EC61 /* FlashsaleViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0969D4B9233DB0CE0006EC61 /* FlashsaleViewController.xib */; };
+		0969D4BE233DF99A0006EC61 /* Home1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0969D4BD233DF99A0006EC61 /* Home1ViewController.swift */; };
+		0969D4C0233DF9A40006EC61 /* Home2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0969D4BF233DF9A40006EC61 /* Home2ViewController.swift */; };
+		0969D4C2233DF9AB0006EC61 /* Home3ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0969D4C1233DF9AB0006EC61 /* Home3ViewController.swift */; };
+		0969D4C4233DF9B20006EC61 /* Home4ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0969D4C3233DF9B20006EC61 /* Home4ViewController.swift */; };
+		0969D4C6233DF9BB0006EC61 /* Home5ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0969D4C5233DF9BB0006EC61 /* Home5ViewController.swift */; };
 		097F9323233CA19A00FDFD5D /* HomePrePayTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 097F9321233CA19A00FDFD5D /* HomePrePayTableViewCell.swift */; };
 		097F9324233CA19A00FDFD5D /* HomePrePayTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 097F9322233CA19A00FDFD5D /* HomePrePayTableViewCell.xib */; };
 		097F9327233CB73A00FDFD5D /* HomePrePayCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 097F9325233CB73A00FDFD5D /* HomePrePayCollectionViewCell.swift */; };
@@ -28,6 +35,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0969D4B8233DB0CE0006EC61 /* FlashsaleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlashsaleViewController.swift; sourceTree = "<group>"; };
+		0969D4B9233DB0CE0006EC61 /* FlashsaleViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FlashsaleViewController.xib; sourceTree = "<group>"; };
+		0969D4BD233DF99A0006EC61 /* Home1ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home1ViewController.swift; sourceTree = "<group>"; };
+		0969D4BF233DF9A40006EC61 /* Home2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home2ViewController.swift; sourceTree = "<group>"; };
+		0969D4C1233DF9AB0006EC61 /* Home3ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home3ViewController.swift; sourceTree = "<group>"; };
+		0969D4C3233DF9B20006EC61 /* Home4ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home4ViewController.swift; sourceTree = "<group>"; };
+		0969D4C5233DF9BB0006EC61 /* Home5ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home5ViewController.swift; sourceTree = "<group>"; };
 		097F9321233CA19A00FDFD5D /* HomePrePayTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePrePayTableViewCell.swift; sourceTree = "<group>"; };
 		097F9322233CA19A00FDFD5D /* HomePrePayTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomePrePayTableViewCell.xib; sourceTree = "<group>"; };
 		097F9325233CB73A00FDFD5D /* HomePrePayCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePrePayCollectionViewCell.swift; sourceTree = "<group>"; };
@@ -86,6 +100,27 @@
 			children = (
 			);
 			path = HomeNotLogin;
+			sourceTree = "<group>";
+		};
+		0969D4B7233DB0A00006EC61 /* Flash sale */ = {
+			isa = PBXGroup;
+			children = (
+				0969D4B8233DB0CE0006EC61 /* FlashsaleViewController.swift */,
+				0969D4B9233DB0CE0006EC61 /* FlashsaleViewController.xib */,
+			);
+			path = "Flash sale";
+			sourceTree = "<group>";
+		};
+		0969D4BC233DF9880006EC61 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				0969D4BD233DF99A0006EC61 /* Home1ViewController.swift */,
+				0969D4BF233DF9A40006EC61 /* Home2ViewController.swift */,
+				0969D4C1233DF9AB0006EC61 /* Home3ViewController.swift */,
+				0969D4C3233DF9B20006EC61 /* Home4ViewController.swift */,
+				0969D4C5233DF9BB0006EC61 /* Home5ViewController.swift */,
+			);
+			path = Home;
 			sourceTree = "<group>";
 		};
 		099A0E13233B66140083F515 /* HomeLoginWithOTP */ = {
@@ -153,6 +188,8 @@
 		09CA06782338BDB7000A39F0 /* CustomAnyThink */ = {
 			isa = PBXGroup;
 			children = (
+				0969D4BC233DF9880006EC61 /* Home */,
+				0969D4B7233DB0A00006EC61 /* Flash sale */,
 				099A0E18233B69A80083F515 /* HomePrePay */,
 				099A0E13233B66140083F515 /* HomeLoginWithOTP */,
 				09F144442339F6F400CEC064 /* HomeLoginWithPassword */,
@@ -253,6 +290,7 @@
 				09CA06812338BDBA000A39F0 /* Assets.xcassets in Resources */,
 				09CA067F2338BDB7000A39F0 /* Main.storyboard in Resources */,
 				097F9328233CB73A00FDFD5D /* HomePrePayCollectionViewCell.xib in Resources */,
+				0969D4BB233DB0CE0006EC61 /* FlashsaleViewController.xib in Resources */,
 				09F144482339F74600CEC064 /* HomeLoginWithPasswordViewController.xib in Resources */,
 				09CA068F2338D31F000A39F0 /* MvNavigationView.xib in Resources */,
 				099A0E17233B67BB0083F515 /* HomeLoginWithOTPViewController.xib in Resources */,
@@ -268,10 +306,16 @@
 			files = (
 				09F144472339F74600CEC064 /* HomeLoginWithPasswordViewController.swift in Sources */,
 				09CA067C2338BDB7000A39F0 /* ViewController.swift in Sources */,
+				0969D4BA233DB0CE0006EC61 /* FlashsaleViewController.swift in Sources */,
+				0969D4BE233DF99A0006EC61 /* Home1ViewController.swift in Sources */,
 				09F1444A233A04AA00CEC064 /* ThirdViewController.swift in Sources */,
 				099A0E16233B67BB0083F515 /* HomeLoginWithOTPViewController.swift in Sources */,
+				0969D4C0233DF9A40006EC61 /* Home2ViewController.swift in Sources */,
 				09CA067A2338BDB7000A39F0 /* AppDelegate.swift in Sources */,
 				097F9323233CA19A00FDFD5D /* HomePrePayTableViewCell.swift in Sources */,
+				0969D4C2233DF9AB0006EC61 /* Home3ViewController.swift in Sources */,
+				0969D4C6233DF9BB0006EC61 /* Home5ViewController.swift in Sources */,
+				0969D4C4233DF9B20006EC61 /* Home4ViewController.swift in Sources */,
 				099A0E1B233B69BB0083F515 /* HomePrePayViewController.swift in Sources */,
 				09CA068D2338BDFB000A39F0 /* Custom.swift in Sources */,
 				097F9327233CB73A00FDFD5D /* HomePrePayCollectionViewCell.swift in Sources */,

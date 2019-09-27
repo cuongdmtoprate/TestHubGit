@@ -65,6 +65,15 @@ class MVView: UIView {
             self.layer.borderColor = #colorLiteral(red: 0, green: 0.7347181439, blue: 0.7580738664, alpha: 1)
         }
     }
+    @IBInspectable var shawDowView: Bool = false {
+        didSet {
+            self.layer.shadowOffset = CGSize(width: 16, height: 4)
+            self.layer.shadowRadius = 4
+            self.layer.shadowColor = #colorLiteral(red: 0, green: 0, blue: 0, alpha: 1)
+            self.layer.shadowOpacity = 0.08
+            
+        }
+    }
 }
 // Custom MVTextField
 class  MVTextField: UITextField {
@@ -226,6 +235,8 @@ extension UIViewController {
         self.navigationController?.navigationBar.barTintColor = #colorLiteral(red: 0, green: 0.7347181439, blue: 0.7580738664, alpha: 1)
 //        self.navigationController?.view.backgroundColor =  #colorLiteral(red: 0, green: 0.7347181439, blue: 0.7580738664, alpha: 1)
         self.navigationController?.navigationBar.shadowImage = UIImage()
+        self.tabBarController?.tabBar.shadowImage = UIImage()
+        self.tabBarController?.tabBar.clipsToBounds = true
         self.navigationController?.navigationBar.isTranslucent = false
         self.navigationItem.title = text
         self.navigationController?.navigationBar.titleTextAttributes = [NSAttributedString.Key.foregroundColor: #colorLiteral(red: 1.0, green: 1.0, blue: 1.0, alpha: 1.0)]
@@ -281,7 +292,22 @@ class MVSlider: UISlider {
     }
 }
 
-// page control
-class MVPageControl: UIPageControl {
-    <#code#>
+// TabbarItem
+class MVTabbar: UITabBarItem {
+    @IBInspectable var foregroundColor: Bool = true {
+        didSet {
+            self.setTitleTextAttributes([NSAttributedString.Key.foregroundColor: UIColor.init(red: 0, green: 0.7347181439, blue: 0.7580738664, alpha: 1)], for: .selected )
+        }
+}
+    
+}
+
+
+class MVTabBar: UITabBar {
+    @IBInspectable var imageShadow: UIImage = UIImage() {
+        didSet {
+            self.shadowImage = UIImage()
+        }
+    }
+    
 }
